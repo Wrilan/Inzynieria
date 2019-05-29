@@ -13,7 +13,7 @@ public class App extends Application {
     public void hibernateTest() {
         UserDao userDao = new UserDao();
         List<User> users = userDao.getUsers();
-        users.forEach(element -> System.out.println(element.getPassword()));
+        users.forEach(element -> System.out.println(element.getEmail()));
     }
 
     @Override
@@ -23,7 +23,7 @@ public class App extends Application {
         Group group = new Group();
 
         Scene scene = new Scene(group ,600, 300);
-        scene.setFill(Color.BLUE);
+        scene.setFill(Color.WHITE);
 
         primaryStage.setTitle("NFZ");
         primaryStage.setScene(scene);
