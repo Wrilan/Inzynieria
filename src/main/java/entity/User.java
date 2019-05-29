@@ -76,7 +76,7 @@ public class User implements Serializable {
         return this.password;
     }
 
-    public void getRole(int role) {
+    public void setRole(int role) {
         this.role = role;
     }
 
