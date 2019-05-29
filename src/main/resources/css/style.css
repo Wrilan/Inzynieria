@@ -1,0 +1,15 @@
+/*
+#233883 niebieski logo NFZ
+#ffc000 żółty NFZ
+#f6f6f6 szary NFZ
+#6b6b6b font color NFZ
+*/
+
+Button{
+-fx-font-family: 'arial';
+-fx-font-size: 16px;
+}
+
+Button:hover{
+-fx-background-color: red;
+}
